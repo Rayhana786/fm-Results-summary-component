@@ -1,0 +1,99 @@
+
+body{
+    display:flex;
+    justify-content:center ;
+    align-items: center;
+    min-height:100vh;}
+    .hanken-grotesk-<uniquifier> {
+      font-family: "Hanken Grotesk", sans-serif;
+      font-optical-sizing: auto;
+      font-weight: <weight>;
+      font-style: normal;
+    }
+    .container{display: flex;
+        width: 600px;
+        border-radius: 20px;
+        justify-content: center;
+        font-family:"Hanken Grotesk",sans-serif;
+        font-size: 18px;
+        box-shadow: 0px 0px 20px 2px rgb(0,0,0,0.4);
+        }
+        .left{color: white;
+        background: linear-gradient(hsl(252, 100%, 67%),hsl(241, 81%, 54%)); 
+        padding: 20px;
+    width: 50%;
+border-radius: 20px;}
+#h2{text-align: center;color: hsl(0, 0%, 100%,0.5);}
+.left h2{text-align: center;
+font-weight: bold;}
+.left p{ text-align: center;
+font-size:;
+color:hsl(0, 0%, 100%,0.5); }
+.left div{background:linear-gradient(hsla(256, 72%, 46%, 1),hsla(241, 72%, 46%, 0));
+border-radius:100%;
+display:flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+margin:auto;
+padding: 50px;
+width: 74px;
+height: 74px;
+
+}
+.score{font-size: 60px;
+font-weight: bold;}
+.of{color: hsl(0,0%,100%,0.5)}
+.right{
+ margin: 30px;
+width: 50%;
+border-radius: 20px;
+}
+ .score-con{display: flex;}
+#div{border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    margin-bottom: 15px;}
+
+.Reaction {color: hsl(0, 100%, 67%);
+background-color:hsla(0, 100%, 67%,0.1) ;
+}
+.Memory{color: hsl(39, 100%, 56%);
+background-color:hsl(39, 100%, 56%,0.1) ;}
+.Verbal{color: hsl(166, 100%, 37%);
+    background-color:hsl(166, 100%, 37%,0.1) ;
+}
+.n{font-weight: bold; color: black;}
+    .nn{color: hsl(0,0%,0%,0.5);}
+.Visual{color:hsl(234, 85%, 45%);
+background-color:hsl(234, 85%, 45%,0.1); }
+.submit{
+    background-color:hsl(224, 30%, 27%);
+color: white;
+text-align: center;
+border-radius: 50px;
+padding: 15px;}
+@media (max-width:750px) {
+  .left{width:100%;
+border-radius: 0%;
+border-bottom-left-radius: 30px;
+border-bottom-right-radius: 30px;
+padding:0px;
+} 
+.left-text{
+    padding: 50px;
+    text-align: center;
+
+}
+.left p{font-size: 26px;}
+  .right{width:80%;
+border-radius: 0%; 
+padding-left:20px;
+}
+.container{width:100%;
+    flex-direction: column;
+    border-radius: 0px;
+    overflow:hidden;
+    padding: 0px;
+    }}
